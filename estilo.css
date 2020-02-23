@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 100%;
+    font-size: 10px;
+    background-color:black;
+
+}
+
+
+.butto{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    margin: -50px 0 0 -150px;
+    text-align: center;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 40, 70);
+    cursor: pointer;
+  }
+  
+  .butto:hover {
+    animation: border-flicker 2s linear forwards;
+  }
+  
+  .butto h1 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size:2.9em;
+    margin: 15px 0 0;
+    color: rgba(120, 0, 50, .5);
+  }
+  
+  .butto:hover h1 {
+    animation: text-flicker 2s linear forwards;
+  }
+  
+  .butto:hover .first {
+    animation: letter-flicker 3s linear infinite;
+  }
+  
+  @keyframes text-flicker {
+    2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    43% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    46% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    47% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes letter-flicker {
+      2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    40% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes border-flicker {
+    2% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    3% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    5% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    6% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    7% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    9% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    13% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    16% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    18% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    22% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    34% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    36% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    54% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    100% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+  }
+
+/* Navbar section */
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/header\ pues\ si.jpg);
+    background-position: center top;
+	background-size:cover;
+}
+#texth p{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.jumbotron {
+    background: rgba(204, 204, 204, 0.5);
+    height: none;
+    background-size: none;
+    background-repeat: no-repeat;
+    position: relative;
+    top:200px;
+   opacity: 100%;
+   
+}
+.jumbotron h1{
+    color:white;
+}
+.jumbotron h2{
+    color:white;
+}
+.jumbotron p {
+    color:  red;
+}
+/* Media qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger.active i:nth-child(1) {
+    -webkit-animation: inT 0.8s forwards;
+    animation: inT 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(2) {
+    -webkit-animation: inM 0.8s forwards;
+    animation: inM 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(3) {
+    -webkit-animation: inBtm 0.8s forwards;
+    animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes outBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+.affix {
+    padding: 0;
+    background-color: #111;
+}
+
+
+
+
+
+
+.myH2 {
+	text-align:center;
+	font-size: 4rem;
+}
+.myP {
+	text-align: justify;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
+}
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+	}
+}
+
+.card-text{
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/*flip card*/
+#primercard {
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 0%;
+    padding-left: none;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-ba {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: red;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-ba {
+    background-image: url("imagenes/CARD2.jpg");
+    color: skyblue;
+    font-size: 1.8em;
+    transform: rotateY(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+  
+  /*la 2flip card*/
+.seguncard {
+    background-color: transparent;
+    width: 500px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    
+  }
+  
+
+.flip-card-in {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-in {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-fr, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-fr {
+    background-color: red;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-image: url("imagenes/asz.jpg");
+    color: #6B7DDE;
+    font-size: 1.8em;
+    transform: rotateY(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* definicion*/
+  .definicion{
+
+    background-color:  #955f20;
+  }
+  /*section*/
+  .otros{
+      background-color: blue;
+      display: inline;
+  }
+  /*flip card de schopenhauer*/
+  /*flip card*/
+ #shopenhauer {
+    display: inline-block;
+    background-color: transparent;
+    width: 350px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+.flip-card-ina {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-ina {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-fra, .flip-card-baa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-fra {
+    background-color: red;
+    color: black;
+  }
+  
+  /* Style the back side */
+  #sch1 {
+    background-image: url("imagenes/lol.jfif");
+    color: skyblue;
+    font-size: 1.8em;
+    transform: rotateY(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    
+  }
+  /*modal button de shcopenhauer*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 100px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 100%;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+     
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+   /*flip card de camus*/
+  .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+#camusback {
+ background-image: url(imagenes/pol2.jpg);
+  
+  background-color: dodgerblue;
+  color: black;
+  transform: rotateY(180deg);
+}
+#camusback h2{
+  margin-top: 30%;
+}
+   /*modal button de camus*/
+/* The Modal (background) */
+.modala {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 100px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-contenta {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 100%;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+     
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  /*carousel*/
+  .carousel-item{
+      background-color: black;
+      
+  }
+  /*redes sociales*/
+  a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contenedor-redes-sociales {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-redes-sociales a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 160px;
+    line-height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+    left: 100%;
+    margin-left: -35px;
+    background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.contenedor-redes-sociales a span.circulo i {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contenedor-redes-sociales a span.titulo, .contenedor-redes-sociales a span.titulo-hover {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+    right: 15px
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    left: 15px
+}
+
+
+/*----------Colores de los botones----------*/
+
+.contenedor-redes-sociales .facebook {
+    border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .facebook span.circulo {
+    background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover span.circulo, .contenedor-redes-sociales .facebook span.titulo {
+    color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+    border: 2px solid #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .twitter span.circulo {
+    background: #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover span.circulo, .contenedor-redes-sociales .twitter span.titulo {
+    color: #1da1f2;
+}
+
+.contenedor-redes-sociales .gplus {
+    border: 2px solid #dd4b39;
+}
+
+.contenedor-redes-sociales .gplus:hover, .contenedor-redes-sociales .gplus span.circulo {
+    background: #dd4b39;
+}
+
+.contenedor-redes-sociales .gplus:hover span.circulo, .contenedor-redes-sociales .gplus span.titulo {
+    color: #dd4b39;
+}
+
+.footer{
+    margin:0;
+    padding:0;
+ 
+}
+
+/*--------------Mediaqueries--------------*/
+
+@media screen and (max-width: 480px) {
+    .contenedor-redes-sociales a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+/*formulario*/
+ .formulario{
+          width: 350px;
+          height: 370px;
+          position: relative;
+          border: 10px solid transparent; 
+          border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%) 1; 
+          background-color: white;
+          margin: 0 auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+ }
+ /*media querys*/
+
+ @media screen and (max-width:800px) {
+     .flip-card{
+          float:left;
+     }
+    }
+@media screen and (max-width:450px) {
+    .flip.card {
+        width:50px;
+        margin-bottom: 120px;
+    }
+}
+@media screen and (max-width:450px) {
+    .seguncard{
+        float: right;
+    }
+}
+@media screen and (max-width:450px) {
+    #meme{
+        padding-top: 12px;
+        padding-left: 120px
+    }
+}
+@media screen and (max-width:800px) {
+    #meme2 {
+        padding-left: 120px;
+    }
+}
+@media screen and (max-width:450px) {
+ .body {
+     height: 4000px;
+     background-color: black;
+ }
+}
+@media screen and (max-width:450px){
+    .home {
+        background-image: url("imagenes/nihilismo.webp");
+    }
+}
+@media screen and (max-width:450px) {
+  #primercarda {
+    padding-left: 0%;
+    margin-bottom: 10px;
+    margin-left: 15%;
+  }
+  #seguncarda {
+    margin-left: 17%;
+    margin-bottom: 10px;
+  }
+}
+
+  /*popover*/
+ 
